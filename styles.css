@@ -1,0 +1,155 @@
+@media only screen and (max-width: 500px) {
+    #container {
+        width: 70% !important;
+        font-size: 14px !important;
+    }
+
+    #main_container {
+        width: 100% !important;
+        background-color:rgb(218, 223, 230);
+        padding:0px !important;
+        border-radius: 0px !important;
+        margin: 0px !important;
+    }
+}
+
+
+#container {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+    font-size: 18px;
+    margin: auto;
+    width:40%;
+    color:rgb(34, 22, 22);
+    padding:30px;
+}
+
+#small_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(36, 75, 88);
+    border-style:solid;
+    border-width: 1px;
+    padding:15px;
+    margin:7px;
+    border-radius: 5px;
+    
+}
+
+#name {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#type, #weekday {
+    font-size: 15px;
+
+
+}
+
+
+
+
+h1 {
+    font-family: 'Crushed', cursive;
+    font-variant: small-caps;
+    margin-bottom: 0px !important;
+    text-align: center;
+    margin-top: 0px !important;
+    padding-top: 10px;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+
+#form {
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#datepicker {
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+#date {
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 3px;
+}
+#countrypicker {
+    flex-direction: row;
+    padding: 10px;
+}
+#country {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 3px;
+}
+
+#holidaySubmit {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    background-color:rgb(156, 156, 182);
+    margin: 5px;
+    padding-right: 50px;
+    padding-left: 35px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#holidaySubmit:hover {
+    background-color: rgb(27, 34, 43);
+    color:cornsilk;
+}
+
+
+
+
+#main_container {
+    width: 65%;
+    margin: auto;
+    background-color:rgb(241, 247, 255);
+    padding-top:20px;
+    padding-bottom: 150px;
+    min-height: 100%;
+}
+
+
+body, html{
+    height: 100% !important;
+    margin:0px;
+    background-color:rgb(33, 33, 59);
+}
+
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(119, 125, 134);
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 200px;
+    padding: 15px;
+  }
+
+  #foot {
+      color: black;
+  }
+
+  #foot.hover {
+    text-decoration: black  !important;
+  }
+
